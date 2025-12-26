@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salim Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Salim Azzan</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- Profile -->
+  <section class="profile">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Profile Photo">
+
+    <div class="info">
+      <h2>About Me</h2>
+      <p class="title">Web Developer (Beginner)</p>
+      <p>I am learning HTML and CSS step by step. This is my first personal website.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h3>My Skills</h3>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">Web Design</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h3>My Projects</h3>
+
+    <div class="projects">
+      <div class="project-card">
+        <h4>Personal Profile</h4>
+        <p>A simple personal website using HTML and CSS.</p>
+        <a href="project1.html" class="project-btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h4>Contact Form</h4>
+        <p>A styled contact form with responsive design.</p>
+        <a href="#" class="project-btn" onclick="return false;">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h4>Skills Section</h4>
+        <p>A skills section with hover animations.</p>
+        <a href="#" class="project-btn" onclick="return false;">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h3>Contact Me</h3>
+
+    <form id="contactForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Salim Azzan. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
